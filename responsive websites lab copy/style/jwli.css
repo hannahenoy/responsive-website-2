@@ -1,0 +1,514 @@
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+  
+  .clear {
+      clear: both;
+  }
+  
+  /******************************************
+  /* BASE STYLES
+  /*******************************************/
+  
+body{
+    margin: 0;
+    margin-top: 0;
+}
+
+  
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+header{
+    height: 30px;
+    clear: both;
+}
+footer{
+    height: 30px;
+    clear: both;
+    background: rgba(187,197,206,1);
+}
+section{
+    height: 350px;
+    width: 65%;
+    float: left;
+}
+.main,
+.side,
+.bottom3{
+    width: 100%;
+    text-align: left;
+}
+#history{
+    height:515px;
+}
+
+.impossibleBurger{
+    display: none;
+}
+
+
+  
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+ 
+  /* navigation bar */
+  nav ul li{
+    height: 7px;
+    margin: 0% 3.5%;
+    float: left;
+    font-size: 13px;
+    font-family: Open Sans, Lato, sans-serif;
+    white-space: nowrap;
+    display: flex;
+    justify-items: center; 
+    margin-bottom: 3%;
+}
+ul{
+    margin-top: 0;
+}
+/* apply nav button */
+button{
+    width: 100px;
+    padding-top: 7px;
+    height: 28px;
+    border: none;
+    color:white;
+    background:rgba(52,57,65,1);
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    top:-5px;  
+    float:left;
+  
+}
+  /* main section - logo/email */
+.main{
+    background: rgba(241,243,245,1);
+  }
+  .intro{
+    margin-left: 6%;
+    width: 50%;
+    float: left;
+}  
+.logo{
+    width: 30%;
+    margin-left: 60px;
+  }
+.main h1{
+    font-family: Open Sans, Lato, sans-serif;
+    font-size: 24px;
+    color: rgba(61,66,74,1);
+}
+.main p{
+    font-family: Open Sans, Lato, sans-serif;
+    font-size: 16px;
+    color: rgba(61,66,74,1); 
+}
+.main i{
+    font-family: Open Sans, Lato, sans-serif;
+    font-size: 10px;
+    color: rgba(61,66,74,1);
+}
+/* email */
+.main input{
+    margin: .4rem 0;
+    height: 36px;
+    width: 56%;
+    border: 1px solid gray;
+    border-radius: 4px;
+    float: left;
+}
+/* email button */
+.email{
+    width: 120px;
+    height: 36px;
+    border: gray;
+    border-radius: 6px;
+    background: rgba(187,197,206,1);
+    color: white;
+    font-family: Open Sans, Lato, sans-serif;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-left: 5%;
+    margin-top: 2%;
+    float: left;
+}
+.person{
+    width: 60%;
+    float: left;
+    margin-left: 110%;
+    margin-top: -52%;    
+}
+.logo{
+    width: 40%;
+    margin-left: 24%;
+}
+
+/* side section ~ empowerment */
+.column{
+    float:left;
+    width: 45%;
+    text-align: left;
+    margin:0;
+    display: flex;
+    position: absolute;
+    left: 4%;
+}
+
+.empower{
+    margin:6% 15%;
+}
+.empower h3{
+    margin-bottom: 3%;
+}
+
+.col-2{
+    width: 55%;
+    padding-right: 100px;
+    margin:0;
+    display:flex;
+    float: right;
+    position: absolute;
+    left: 33%;
+}
+.side h3{
+    margin:0px 35px;
+    text-align: center;
+
+}
+.side p{
+    font-family: Open Sans, Lato, sans-serif;
+    font-size: 12px;
+    color: rgba(61,66,74,1); 
+    display:inline-block;
+}
+hr{
+    border-bottom: 3px solid lightpink;
+    color: lightpink;
+    background: lightpink;
+    width: 275px;
+    height:15px;
+    border-radius: 2px;
+    position:relative;
+    left:33%;
+}
+.side p + p + p{
+    font-family: Open Sans, Lato, sans-serif;
+    font-size: 12px;
+    color: gray; 
+    display:inline-block;
+}
+.ourhistory{
+    margin: 3% 6%;
+}
+#history{
+    background: rgba(241,243,245,1);
+}
+#history h2{
+    font-family: Open Sans, Lato, sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+    color: rgba(61,66,74,1);
+    text-align: left;
+    margin-bottom: 0;
+}
+#history p{
+    font-family: Open Sans, Lato, sans-serif;
+    font-size: 12px;
+    color: rgba(61,66,74,1); 
+    text-align: left;
+    float: left;
+    width: 50%;
+    clear: both;
+
+}
+.history1,
+.history2{
+    width: 25%;
+    float:left;
+    margin-left: 6%;
+    margin-bottom: 4%;
+}
+.history1{
+    float:left;
+}
+
+/* who we are */
+.bottom3 h3,
+.bottom h4 {
+    font-family: Open Sans, Lato, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(61,66,74,1);
+    text-align: center;
+    margin: 4% 0;
+}
+.bottom3 p{
+    font-family: Open Sans, Lato, sans-serif;
+    font-size: 12px;
+    color: rgba(61,66,74,1); 
+}
+.bottom3 span{
+    font-family: Open Sans, Lato, sans-serif;
+    font-size: 12px;
+    color: rgba(61,66,74,1); 
+    font-weight: bold;
+}
+/* who we are image */
+.about{
+    width:25%;
+    float:left;
+    margin-right: 5%;
+}
+#about{
+    height:600px;
+}
+.whoweare{
+    margin: 5% 15%;
+}
+.fish,
+.simmons,
+.fishfam {
+    margin:2% 2%;
+}
+.fish,
+.fishfam {
+    float:left;
+    width: 40%;
+    text-align: left;
+
+}
+.simmons {
+    float:right;
+    width: 40%;
+}
+.simmonslogo{
+    width:30%;
+}
+
+
+
+
+/* ~~~media query~~~ */
+
+
+@media screen and (max-width: 994px) {
+    .side p{
+        display:none;
+    }
+    .empower{
+        margin-top: 8%;
+    }
+    .side{
+        height:250px;
+    }
+}
+@media screen and (max-width: 959px) {
+    #history{
+        display:none;
+    }
+    #about{
+        margin-top: -4%;
+    }
+}
+@media screen and (max-width: 925px) {
+    .fishfam,
+    .simmons{
+        display: none;
+    }
+    #about{
+        height:390px;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    .side p{
+        display:none;
+    }
+    nav ul li{
+        display:none;
+    }
+    .impossibleBurger{
+        display:block;
+        position: fixed;
+        top:4%;
+        color: darkgray;
+        background: rgba(241,243,245,1);
+        font-size: 30px;
+    }
+    header{
+        background: rgba(241,243,245,1);
+
+    }
+}
+@media screen and (max-width: 880px) {
+    .person{
+        display: none;
+    }
+    .logo{
+        margin-right: 20%;
+    }
+    .intro{
+        float: none;
+        width: 80%;
+        padding: 10px; 
+        text-align: center;
+    }
+    .empower{
+        text-align: center;
+    }
+    .main{
+        height:400px;
+    }
+    .main button{
+        margin: 1.5%;
+        margin-top: 3.5%;
+
+    }
+    .main input{
+        width: 350px;
+        margin-left: 20%;
+        margin-top: 3%;
+    }
+}
+@media screen and (max-width: 787px) {
+    .main button{
+        margin: 1.5%;
+        margin-top: 3.5%;
+
+    }
+    .main input{
+        width: 350px;
+        margin-left: 15%;
+        margin-top: 3%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .main button,
+    .main input,
+    .main i{
+        display:none;
+    }
+    .main{
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .col-2 p{
+        display:none;
+    }
+    .person{
+        display: none;
+    }
+    .intro{
+        float: none;
+        width: 80%;
+        padding: 10px; 
+        text-align: center;
+    }
+    .logo{
+        margin-right: 20%;
+    }
+
+    .empower{
+        text-align: center;
+    }
+
+    .main input,
+    .main button{
+        margin: 10% 5%;
+    }
+    .main input{
+        width: 350px;
+    }
+    .main,
+    .side,
+    .bottom3{
+        width: 100%;
+    }
+    .column,
+    .col-2{
+        display: none;
+    }
+    .empower p{
+        font-size: 16px;
+    }
+    nav ul li{
+        display:none;
+    }
+    .impossibleBurger{
+        display:block;
+        position: relative;
+        top:5%;
+        color: darkgray;
+        background: rgba(241,243,245,1);
+        font-size: 30px;
+    }
+    header{
+        background: rgba(241,243,245,1);
+    }
+    #history{
+        height: 655px;
+    }
+    .fishfam,
+    .simmons{
+        display: none;
+    }
+    #about{
+        height: 400px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .main h1{
+        display:none;
+    }
+    .main{
+        height:220px;
+    }
+}
+@media screen and (max-width: 708px) {
+    .side{
+        display: none;
+    }
+    #about h3{
+        display: none;
+    }
+    #about{
+        margin-top: 2%;
+    }
+}
+@media screen and (max-width: 529px) {
+    #about{
+        display: none;
+
+    }
+}
+    @media screen and (max-width: 425px) {
+        #about{
+            display: none;
+    
+        }
+        p.empowering{
+            display: none;
+        }
+}
+
