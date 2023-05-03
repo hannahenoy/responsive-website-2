@@ -1,11 +1,11 @@
-<h1>Visit the website: <a href="https://jw-leadership.netlify.app">here</a></h1>
-A clean mock design that is fully responsive across all screen devices.
-<br><br>
+<h1>View the demo: <a href="https://jw-leadership.netlify.app">here</a></h1>
+
+<p align="center">
 
 <img src="https://i.postimg.cc/Bnv2nVdy/jwli.png" height="500">
 
-<b>Goals:</b>
-This was one of my first projects focusing on CSS and jQuery. I wanted to perfect the positioning and make sure everything looked good across all screen devices. Before starting this project I had very little knowledge about absolute positioning and creating media queries.
+## What I Learned
+How to use CSS media queries to adjust the layout and content of the website based on the device being used. By using responsive design techniques, I was able to create a website that looks great on a variety of devices, from desktop computers to smartphones and tablets.
 
-<b>Results:</b>
-By the end of completing this project, I learned how to make my website fully responsive across all screen sizes and made sound content/design decisions.
+## Optimizations
+I'd like to compress the images to optimize page load times and ensure that the website loads quickly and efficiently for users on all devices.
